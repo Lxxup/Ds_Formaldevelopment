@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/newhome_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="#f4f5f6">
+
+        <TextView
+            android:id="@+id/tv_main_set"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="25dp"
+
+            android:background="@drawable/main_set" />
+
+        <!--<ImageView
+            android:layout_width="160dp"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/new_icon" />-->
+
+        <!-- <Spinner
+             android:id="@+id/sp_a"
+             android:layout_width="20sp"
+             android:layout_height="20sp"
+             android:layout_alignParentRight="true"
+             android:layout_centerVertical="true"
+             android:layout_marginRight="25dp"
+             android:background="@drawable/menu_login"
+
+             >
+
+         </Spinner>-->
+
+
+        <!--<TextView
+            android:id="@+id/tv_main_menu"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="25dp"
+            android:background="@drawable/menu_login"
+            android:gravity="center" />-->
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/newhome_iv"
+        android:layout_below="@id/newhome_ll"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lst_home"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>
